@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* ----header---- */
+
+
+.header{
+    background-color: rgb(255, 194, 52);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    text-transform: uppercase;
+}
+
+.header nav{
+    display: flex;
+    gap: 40px;
+}
+
+
+.header nav a{
+    color: rgb(65,31,9);
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/* ----main---- */
+
+.main{
+    display: flex;
+    background-color: rgb(255, 194, 52);
+    width: 100%;
+    padding: 30px;
+    height: 600px;
+
+}
+
+.main-titulo{
+    font-size: 72px;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-titulo{
+    width: 50%;
+    margin-left: 100px;
+}
+
+.main-img{
+    width: 50%;
+}
+
+.img-principal{
+    position: absolute;
+}
+
+.preco img{
+    position: relative;
+    bottom: -350px;
+}
+
+/* ------section cards  ------- */
+.cardapio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 30px;
+    gap: 30px;
+    color: rgb(65,31,9);
+}
+
+.cardapio span{
+    background-color: rgb(255, 194, 52);
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.cardapio h1 {
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cardapio p{
+    font-size: 25px;
+    text-align: center;
+    max-width: 1400px;
+}
+
+.cards{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: flex-end;
+}
+
+.card{
+    width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card h2{
+    text-transform: uppercase;
+}
+
+.card p{
+    font-size: 16px;
+}
+
+.card div a{
+    padding: 15px 35px;
+    background-color: rgb(223,28,28);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* ----formulario---- */
+.formulario{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.formulario h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.formulario p{
+    font-size: 16px;
+}
+
+.form-inputs{
+    margin-top: 30px;
+    width: 900px;
+    display: flex;
+    gap: 10px;
+}
+
+.form-col input, .form-col button{
+    width: 100%;
+    padding: 20px 90px 20px 15px;
+    background-color: rgb(255, 194, 52);
+    color: rgb(65,31,9);
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-col{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-col button{
+    background-color: rgb(223,28,28);
+    color: #fff;
+    padding: 19px 90px 19px 90px;
+
+}
+
+/* ---rodape---- */
+.rodape{
+    background-image: url("../img/rodape/fundo.png");
+    background-size: cover;
+    padding: 100px;
+    color: #fff;
+}
+
+.logo img{
+    width: 400px;
+}
+
+.rodape-conteudo p{
+    max-width: 600px;
+    line-height: 25px;
+}
+
+.rodape-conteudo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape-conteudo div{
+    margin-top: 30px;
+}
+
+.rodape-infos{
+    display: flex;
+    flex-direction: column;
+}
+
+.info{
+    display: flex;
+    gap: 20px;
+    text-transform: uppercase;
+}
+
+.rodape-redes{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes-sociais {
+    display: flex;
+}
+
+.redes-sociais img{
+    width: 50px;
+}
